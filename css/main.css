@@ -1,0 +1,45 @@
+
+.home-container {
+    max-width: 1080px;
+}
+
+.films-container {
+    width: 35%;
+    min-width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background: url('../imgs/stars.gif');
+}
+
+.films-container:hover {
+    cursor: pointer;
+}
+
+.film {
+    list-style: none;
+    color: yellow;
+}
+
+.favorite {
+    font-weight: bold;
+}
+
+.favorite::after {
+    content: ' - ❤️'
+}
+
+
+/* Helpers */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
